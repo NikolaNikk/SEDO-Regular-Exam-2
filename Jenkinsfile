@@ -1,5 +1,5 @@
 pipeline {
-    agent { label any }  // Run on Windows node
+    agent any
 
 
     stages {
